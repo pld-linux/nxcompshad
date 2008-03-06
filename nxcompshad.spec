@@ -1,13 +1,14 @@
-%define	_version_major	3.0.0
-%define	_version_minor	19
+%define	ver_major	3.0.0
+%define	ver_minor	19
 
-Summary:	NX compression library extenstions for shadowing
+Summary:	NX compression library extensions for shadowing
+Summary(pl.UTF-8):	Rozszerzenia biblioteki kompresji NX do cieniowania
 Name:		nxcompshad
-Version:	%{_version_major}.%{_version_minor}
+Version:	%{ver_major}.%{ver_minor}
 Release:	1
 License:	GPL
 Group:		X11/Libraries
-Source0:	http://64.34.161.181/download/%{_version_major}/sources/%{name}-%{_version_major}-%{_version_minor}.tar.gz
+Source0:	http://64.34.161.181/download/%{ver_major}/sources/%{name}-%{ver_major}-%{ver_minor}.tar.gz
 # Source0-md5:	fb5e6c5dbbb1e453282ea6176547e987
 URL:		http://www.nomachine.com/
 BuildRequires:	autoconf >= 2.59-9
@@ -22,6 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 NX compression library extensions for shadowing.
+
+%description -l pl.UTF-8
+Rozszerzenia biblioteki kompresji NX do cieniowania.
 
 %package devel
 Summary:	Header files for nxcompshad
