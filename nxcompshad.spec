@@ -1,5 +1,5 @@
 %define	ver_major	3.2.0
-%define	ver_minor	1
+%define	ver_minor	3
 
 Summary:	NX compression library extensions for shadowing
 Summary(pl.UTF-8):	Rozszerzenia biblioteki kompresji NX do cieniowania
@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		X11/Libraries
 Source0:	http://64.34.161.181/download/%{ver_major}/sources/%{name}-%{ver_major}-%{ver_minor}.tar.gz
-# Source0-md5:	1f106094d1d0d35b381faff80bd840af
+# Source0-md5:	6edfa4f65f579306f05af2451249c2bf
 URL:		http://www.nomachine.com/
 BuildRequires:	autoconf >= 2.59-9
 BuildRequires:	libjpeg-devel
@@ -77,7 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGELOG 
+%doc CHANGELOG
 %attr(755,root,root) %{_libdir}/lib*.so.*
 
 %files devel
