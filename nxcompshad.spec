@@ -1,6 +1,9 @@
+# NOTE
+# - nxcompshad is built in nx.spec in pld
+#   https://github.com/pld-linux/nx/commit/5843d362d78ea5fc3689d34a391622b1d8a110e0
+
 %define	ver_major	3.5.0
 %define	ver_minor	2
-
 Summary:	NX compression library extensions for shadowing
 Summary(pl.UTF-8):	Rozszerzenia biblioteki kompresji NX do cieniowania
 Name:		nxcompshad
